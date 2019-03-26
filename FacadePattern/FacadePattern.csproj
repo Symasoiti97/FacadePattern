@@ -43,8 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="HomeComputerFacade.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Things\Computer.cs" />
+    <Compile Include="Things\Popcorn.cs" />
+    <Compile Include="Things\Volume.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
